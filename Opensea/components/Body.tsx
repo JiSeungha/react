@@ -1,7 +1,7 @@
 import Body1 from "./Body1";
-import background from "../images/background.jpg";
+import Body2 from "./Body2";
 import Carousel from "./Carousel";
-import CategoryDropdown from "./buttons/CategoryDropdown";
+import background from "../images/background.jpg";
 
 const Body = ({}) => {
   return (
@@ -17,6 +17,7 @@ const Body = ({}) => {
       </div>
 
       <div>
+        <Body2/>
       </div>
 
     </div>
